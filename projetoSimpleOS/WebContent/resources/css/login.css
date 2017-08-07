@@ -1,0 +1,53 @@
+/* LOGIN*/
+.marcador{
+	background: #fe9d9d;
+	border:1px solid #f94646;
+}
+
+.marcador2{
+	background: #5bf946;
+	border:1px solid #36ae26;
+}
+
+form{
+    width: 250px;
+    margin: 0 auto;
+}
+
+
+h4.form-title{
+	 
+      font-family: 'Open Sans' , sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+h1{
+	text-align: center;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    background: linear-gradient(50deg,#3a3a3a,#87CEFA);
+     background-attachment: fixed
+}
+.linha-vertical {
+  height: 500px;/*Altura da linha*/
+  border-right: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+}
+.row {
+    margin-right: 150px;
+    margin-left: -15px;
+    margin-top: 100px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #04a4fd;
+    border-color: #2e6da4;
+}

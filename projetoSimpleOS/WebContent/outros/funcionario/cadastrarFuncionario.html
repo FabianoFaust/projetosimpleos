@@ -1,0 +1,57 @@
+<link rel = "stylesheet" href="resources/funcionario/css/funcionario.css"></link>
+<fieldset class ="conteudo-fieldset fieldsetFuncionario">
+<meta charset = "UTF-8">
+<legend>Cadastrar Funcionário</legend>
+	<table>
+	<form id = "cadastrarFuncionario" class="form"><br>
+
+		<tr><td><div id="nome-form">
+			<label> Nome Completo:</label>
+			<input id = "nome" name="txtnomecompleto" type="text"></input>
+		</div></td></tr>	<tr>
+		<div id="ende-form"><td>
+		<label> Endereço:</label>
+			<input id = "endereco" name="txtendereco" type="text"></input></td>
+		</div>
+		<td><div class="centro-form">
+			<label> Numero:</label>
+			<input id = "numero" name="txtnumero" type="text"></input>
+		</div></td>
+		<td><div id="bairro-form">
+			<label> Bairro:</label>
+			<td><input id = "bairro" name="txtbairro" type="text"></input>
+		</div></td></tr>
+		<tr><td><div id="cidade-form">
+			<label> Cidade:</label>
+			<input id = "cidade" name="txtcidade" type="text"></input>
+		</div></td>
+		<td><div class="centro-form">
+			<label>UF:</label>
+			<input id = "estado" name="txtestado" type="text"></input>
+		</div></td></tr>
+		<tr><td><div id="telefone-form">
+			<label> Telefone Residencial:</label>
+		<input id = "telefone" name="txttelefone" type="text"></input>
+		</div></td>
+		<td><div class="centro-form">
+			<label> Celular:</label>
+			<input id = "celular" name="txtcelular" type="text"></input>
+		</div></td></tr>
+		
+		<tr><td><div id="email-form">
+			<label> Email:</label>
+			<input id = "email" name="txtemail" type="text"></input>
+		</div></td></tr>
+		
+		<tr><td><div class="div-form-button">
+			<input type="button" value="Enviar" onclick="SENAI.funcionario.cadastrar()"/>
+		 	<input type="reset" value="Limpar"/>
+		</div></td></tr>
+		
+	</form>
+	
+</fieldset>
+
+<div id="msg" style="display:none">
+</div>
+</table>
